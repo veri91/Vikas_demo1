@@ -8,7 +8,7 @@ import com.example.demo1.service.PersonService;
 import java.util.List;
 import java.util.UUID;
 
-@RequestMapping("api/v1/person")
+@RequestMapping("/api/v1/person")
 @RestController
 public class PersonController {
     private final PersonService personService;
